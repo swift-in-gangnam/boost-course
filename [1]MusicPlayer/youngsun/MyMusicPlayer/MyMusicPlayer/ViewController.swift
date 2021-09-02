@@ -52,9 +52,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         let minute: Int = Int(time / 60)
         let second: Int = Int(time.truncatingRemainder(dividingBy: 60))
         let milisecond: Int = Int(time.truncatingRemainder(dividingBy: 1) * 100)
-        
         let timeText: String = String(format: "%02ld:%02ld:%02ld", minute, second, milisecond)
-        
         self.timeLabel.text = timeText
     }
     
