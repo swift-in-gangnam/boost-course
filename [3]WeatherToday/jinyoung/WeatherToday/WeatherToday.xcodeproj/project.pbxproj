@@ -69,6 +69,8 @@
 		3CBE624326EB28940045DB73 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3CBE624526EB2C770045DB73 /* CountryModels.swift */,
+				3CBE624726EB2D5E0045DB73 /* CityModels.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -76,6 +78,8 @@
 		3CBE624426EB289A0045DB73 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				3CBE624926EB33CA0045DB73 /* CountryListViewModel.swift */,
+				3CBE624E26EB4B960045DB73 /* CityListViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -124,11 +128,7 @@
 				3CCB352326E350FB0062602E /* LaunchScreen.storyboard */,
 				3CCB352626E350FB0062602E /* Info.plist */,
 				3CBE624326EB28940045DB73 /* Models */,
-				3CBE624526EB2C770045DB73 /* CountryModels.swift */,
-				3CBE624726EB2D5E0045DB73 /* CityModels.swift */,
 				3CBE624426EB289A0045DB73 /* ViewModels */,
-				3CBE624926EB33CA0045DB73 /* CountryListViewModel.swift */,
-				3CBE624E26EB4B960045DB73 /* CityListViewModel.swift */,
 				3CBE624226EB28800045DB73 /* Controllers */,
 				3CBE625026EB53D40045DB73 /* Views */,
 			);
